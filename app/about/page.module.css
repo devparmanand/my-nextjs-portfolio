@@ -1,0 +1,102 @@
+.about {
+  width: 100%;
+}
+
+/* HEADER */
+.header {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #003168, #001e40);
+  color: #ffffff;
+}
+
+.header h1 {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.header p {
+  font-size: 18px;
+  max-width: 650px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* CONTENT */
+.content {
+  max-width: 1100px;
+  margin: auto;
+  padding: 80px 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 60px;
+}
+
+.text h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.text p {
+  line-height: 1.8;
+  margin-bottom: 14px;
+}
+
+/* STATS */
+.stats {
+  display: grid;
+  gap: 20px;
+}
+
+.statCard {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.06);
+}
+
+.statCard h3 {
+  font-size: 32px;
+  color: #003168;
+}
+
+.statCard p {
+  font-size: 15px;
+}
+
+/* SKILLS */
+.skills {
+  background: #f8fafc;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.skills h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.skillGrid {
+  max-width: 900px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 14px;
+}
+
+.skillGrid span {
+  background: #ffffff;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-weight: 500;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .content {
+    grid-template-columns: 1fr;
+  }
+}

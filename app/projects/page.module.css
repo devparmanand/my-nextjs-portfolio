@@ -1,0 +1,91 @@
+.projects {
+  width: 100%;
+}
+
+/* HEADER */
+.header {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg, #003168, #001e40);
+  color: #ffffff;
+}
+
+.header h1 {
+  font-size: 40px;
+  margin-bottom: 12px;
+}
+
+.header p {
+  font-size: 18px;
+  max-width: 650px;
+  margin: auto;
+  line-height: 1.6;
+}
+
+/* PROJECT LIST */
+.list {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+/* CARD */
+.card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 18px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.12);
+}
+
+.card h3 {
+  font-size: 22px;
+  margin-bottom: 12px;
+  color: #003168;
+}
+
+.card p {
+  line-height: 1.7;
+  margin-bottom: 16px;
+}
+
+/* TECH STACK */
+.techStack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 18px;
+}
+
+.techStack span {
+  background: #f1f5f9;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+/* LINK */
+.projectLink {
+  text-decoration: none;
+  font-weight: 600;
+  color: #003168;
+}
+
+.projectLink:hover {
+  text-decoration: underline;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 32px;
+  }
+}

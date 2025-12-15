@@ -1,0 +1,120 @@
+.home {
+  width: 100%;
+}
+
+/* HERO */
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #003168, #001e40);
+  color: #ffffff;
+}
+
+.heroContent h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.heroContent h1 span {
+  color: #ffd166;
+}
+
+.heroContent p {
+  font-size: 18px;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 32px;
+  line-height: 1.6;
+}
+
+.heroButtons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* BUTTONS */
+.primaryBtn {
+  background: #ffd166;
+  color: #003168;
+  padding: 12px 26px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.secondaryBtn {
+  border: 2px solid #ffffff;
+  color: #ffffff;
+  padding: 12px 26px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* SECTIONS */
+.section,
+.sectionAlt {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.sectionAlt {
+  background: #f8fafc;
+}
+
+.section h2,
+.sectionAlt h2,
+.cta h2 {
+  font-size: 32px;
+  margin-bottom: 16px;
+}
+
+.sectionText {
+  max-width: 700px;
+  margin: auto;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.linkBtn {
+  display: inline-block;
+  margin-top: 10px;
+  color: #003168;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* PROJECTS */
+.projectGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin: 40px auto;
+  max-width: 1100px;
+}
+
+.projectCard {
+  background: #ffffff;
+  padding: 24px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  text-align: left;
+}
+
+/* CTA */
+.cta {
+  background: #003168;
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.cta p {
+  margin-bottom: 24px;
+}
