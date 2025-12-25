@@ -6,7 +6,7 @@ export default function Navbar() {
     <header className={styles.navbar}>
       <div className={styles.navContainer}>
         <div className={styles.logo}>
-          <Link href="/">Pammi.dev</Link>
+          <Link href="/">Parmanand (Web Solutions) </Link>
         </div>
 
         <nav className={styles.navLinks}>

@@ -8,10 +8,16 @@ export default function Footer() {
         
         {/* Brand */}
         <div className={styles.brand}>
-          <h2>Pammi.dev</h2>
+          <h2>Parmanand (Web Solutions)  </h2>
           <p>
             MERN Stack Developer building modern, scalable, and
             user-friendly web applications.
+          </p>
+        <br />
+
+           <p>
+           Email : pjha3861@gmail.com <br /> 
+           Phone : +91 - 9368394493
           </p>
         </div>
 
@@ -21,7 +27,7 @@ export default function Footer() {
           <Link href="/">Home</Link>
           <Link href="/about">About</Link>
           <Link href="/projects">Projects</Link>
-          <Link href="/contact">Contact</Link>
+          <Link href="/contactus">Contact</Link>
         </div>
 
         {/* Social */}

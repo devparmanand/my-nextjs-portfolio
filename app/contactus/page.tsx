@@ -48,8 +48,9 @@ export default function ContactPage() {
           </p>
 
           <ul>
-            <li><strong>Email:</strong> pammi@email.com</li>
-            <li><strong>Location:</strong> India</li>
+            <li><strong>Email:</strong> pjha3861@gmail.com</li>
+            <li><strong>Phone:</strong> +91 - 9368394493</li>
+            <li><strong>Location:</strong> near by Water Tank Road, Nagla Charan Dass, Phase-2, Noida, Uttar Pradesh 201305</li>
             <li><strong>Availability:</strong> Open for freelance</li>
           </ul>
         </div>

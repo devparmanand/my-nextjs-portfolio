@@ -9,7 +9,7 @@ export default function Home() {
       <section className={styles.hero}>
         <div className={styles.heroContent}>
           <h1>
-            Hi, I’m <span>Pammi</span> 👋
+            Hi, I’m <span>Parmanand (Web Solutions)</span> 👋
           </h1>
           <p>
             A passionate MERN Stack Developer crafting modern,
